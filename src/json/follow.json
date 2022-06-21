@@ -1,0 +1,328 @@
+{
+    "type": "flex",
+    "altText": "歡迎成為愛料理好友，立刻登入並且領取優惠卷！",
+    "contents": {
+        "type": "carousel",
+        "contents": [
+            {
+                "type": "bubble",
+                "hero": {
+                    "type": "image",
+                    "url": "https://trello-attachments.s3.amazonaws.com/5c90c6161b28a46f1816b6ce/800x600/d7c6ddcb488e17a5dc5324dc7c07e0e1/LINE%E5%8A%A0%E5%85%A5%E5%A5%BD%E5%8F%8B_%E6%8A%98%E5%83%B9%E5%88%B8800x600.jpg",
+                    "size": "full",
+                    "aspectRatio": "20:13",
+                    "aspectMode": "cover",
+                    "action": {
+                        "type": "uri",
+                        "label": "領取優惠卷",
+                        "uri": "line://app/1590303945-Q8oX6JdZ?Hj3Qmt6pcV"
+                    }
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "歡迎成為愛料理好友，送你100元現金折扣",
+                            "size": "lg",
+                            "align": "center",
+                            "weight": "bold",
+                            "wrap": true
+                        },
+                        {
+                            "type": "separator",
+                            "margin": "xl"
+                        },
+                        {
+                            "type": "text",
+                            "text": "馬上登入愛料理，使用更便利！",
+                            "margin": "xl",
+                            "align": "center",
+                            "wrap": true
+                        },
+                        {
+                            "type": "text",
+                            "text": "往右滑更多好康▸",
+                            "align": "center"
+                        }
+                    ]
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "uri",
+                                "label": "點擊領取100元折扣",
+                                "uri": "https://icook.link/e/Hj3Qmt6pcV"
+                            },
+                            "color": "#F06354",
+                            "height": "md",
+                            "style": "primary"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "bubble",
+                "hero": {
+                    "type": "image",
+                    "url": "https://s.icook.tw/uploads/1554091152.jpg",
+                    "size": "full",
+                    "aspectRatio": "20:13",
+                    "aspectMode": "cover"
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                                {
+                                    "type": "text",
+                                    "text": "❤️  收藏食譜隨處可看！跨平台、跨裝置都ok!",
+                                    "flex": 0,
+                                    "margin": "none",
+                                    "size": "md",
+                                    "align": "start",
+                                    "weight": "regular",
+                                    "wrap": true
+                                },
+                                {
+                                    "type": "box",
+                                    "layout": "vertical",
+                                    "contents": [
+                                        {
+                                            "type": "spacer"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "📌 即時留言，討論烹飪大小事，挖掘美味食譜的秘密",
+                                    "flex": 0,
+                                    "size": "md",
+                                    "weight": "regular",
+                                    "wrap": true
+                                },
+                                {
+                                    "type": "box",
+                                    "layout": "vertical",
+                                    "contents": [
+                                        {
+                                            "type": "spacer"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "👍  一鍵查看一週菜單，毋須反覆登入好方便",
+                                    "flex": 0,
+                                    "size": "md",
+                                    "weight": "regular",
+                                    "wrap": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "uri",
+                                "label": "登入愛料理，享受便利",
+                                "uri": "https://icook.tw/login"
+                            },
+                            "color": "#F06354",
+                            "height": "md",
+                            "style": "primary"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "bubble",
+                "hero": {
+                    "type": "image",
+                    "url": "https://s.icook.tw/uploads/1550215573.png",
+                    "size": "full",
+                    "aspectRatio": "20:13",
+                    "aspectMode": "cover"
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                                {
+                                    "type": "text",
+                                    "text": "👍  今晚煮什麼？跟著做就對了！營養均衡配好好",
+                                    "flex": 0,
+                                    "margin": "none",
+                                    "size": "md",
+                                    "align": "start",
+                                    "weight": "regular",
+                                    "wrap": true
+                                },
+                                {
+                                    "type": "box",
+                                    "layout": "vertical",
+                                    "contents": [
+                                        {
+                                            "type": "spacer"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "📌  採買清單分兩張，要煮時再買最新鮮！",
+                                    "flex": 0,
+                                    "size": "md",
+                                    "weight": "regular",
+                                    "wrap": true
+                                },
+                                {
+                                    "type": "box",
+                                    "layout": "vertical",
+                                    "contents": [
+                                        {
+                                            "type": "spacer"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "❤️  當季食材多種變化，新鮮好吃不浪費！",
+                                    "flex": 0,
+                                    "size": "md",
+                                    "weight": "regular",
+                                    "wrap": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "uri",
+                                "label": "查看菜單，找靈感",
+                                "uri": "https://blog.icook.tw/tags/10536"
+                            },
+                            "color": "#F06354",
+                            "height": "md",
+                            "style": "primary"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "bubble",
+                "hero": {
+                    "type": "image",
+                    "url": "https://s.icook.tw/uploads/1554090790.jpg",
+                    "size": "full",
+                    "aspectRatio": "20:13",
+                    "aspectMode": "cover"
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                                {
+                                    "type": "text",
+                                    "text": "👍  手機螢幕不變暗，雙手不用一直按按按！",
+                                    "flex": 0,
+                                    "margin": "none",
+                                    "size": "md",
+                                    "align": "start",
+                                    "weight": "regular",
+                                    "wrap": true
+                                },
+                                {
+                                    "type": "box",
+                                    "layout": "vertical",
+                                    "contents": [
+                                        {
+                                            "type": "spacer"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "📌  專屬採買清單，採購時一一核對，食材不怕漏！",
+                                    "flex": 0,
+                                    "size": "md",
+                                    "weight": "regular",
+                                    "wrap": true
+                                },
+                                {
+                                    "type": "box",
+                                    "layout": "vertical",
+                                    "contents": [
+                                        {
+                                            "type": "spacer"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "❤️  一鍵查詢喜歡食譜的食材，單一食材多種用途，不浪費",
+                                    "flex": 0,
+                                    "size": "md",
+                                    "weight": "regular",
+                                    "wrap": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "uri",
+                                "label": "下載APP，升級體驗",
+                                "uri": "https://icook.link/rRXulnz9kV"
+                            },
+                            "color": "#F06354",
+                            "height": "md",
+                            "style": "primary"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

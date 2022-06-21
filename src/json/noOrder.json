@@ -1,0 +1,37 @@
+{
+    "type":"text",
+    "id":"1",
+    "text":"您好，目前沒有訂單資訊 $\n$商品訂單「前後7天」可供查詢\n$未完成結帳，訂單未完成\n$如有任何問題，請聯繫愛料理客服 hi@icook.tw，謝謝您$",
+    "emojis":[
+        {
+            "index":12,
+            "length": 1,
+            "productId":"5ac22a8c031a6752fb806d66",
+            "emojiId":"001" 
+        },
+        {
+            "index":14,
+            "length": 1,
+            "productId":"5ac21184040ab15980c9b43a",
+            "emojiId":"195" 
+        },
+        {
+            "index":30,
+            "length": 1,
+            "productId":"5ac21184040ab15980c9b43a",
+            "emojiId":"195" 
+        },
+        {
+            "index":43,
+            "length": 1,
+            "productId":"5ac21e6c040ab15980c9b444",
+            "emojiId":"021"
+        },
+        {
+            "index":75,
+            "length": 1,
+            "productId":"5ac223c6040ab15980c9b44a",
+            "emojiId":"072"
+        }
+    ]
+}

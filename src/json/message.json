@@ -1,0 +1,79 @@
+{
+    "type": "flex",
+    "altText": "您好，目前找不到您所需要的資訊🙏 推薦給您「熱門食譜」與「當季食材」料理推薦！如果其他疑問請透過 Email 或 Facebook 訊息與我們聯繫！謝謝❣",
+    "contents": {
+        "type": "bubble",
+        "direction": "ltr",
+        "header": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "none",
+            "margin": "none",
+            "contents": [
+                {
+                    "type": "text",
+                    "text": "感謝您傳訊息給愛料理❤️",
+                    "size": "lg",
+                    "align": "center",
+                    "weight": "bold"
+                },
+                {
+                    "type": "text",
+                    "text": "您好，目前找不到您所需要的資訊🙏 推薦給您「熱門食譜」與「當季食材」料理推薦！如果其他疑問請透過 Email 或 Facebook 訊息與我們聯繫！謝謝❣",
+                    "margin": "sm",
+                    "wrap": true
+                }
+            ]
+        },
+        "body": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "lg",
+            "contents": [
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "uri",
+                        "label": "Facebook 訊息",
+                        "uri": "https://m.me/icooktw/?openExternalBrowser=1"
+                    },
+                    "color": "#3B5998",
+                    "style": "primary"
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "uri",
+                        "label": "Email",
+                        "uri": "mailto:hi@icook.tw"
+                    },
+                    "style": "primary"
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "uri",
+                        "label": "前往愛料理",
+                        "uri": "https://icook.tw?openExternalBrowser=1"
+                    },
+                    "color": "#F06354",
+                    "style": "primary"
+                }
+            ]
+        },
+        "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "md",
+            "contents": [
+                {
+                    "type": "text",
+                    "text": "服務時間：週一至週五\n09:30-12:00、14:00-18:00",
+                    "size": "xs",
+                    "align": "center",
+                    "wrap": true
+                }
+            ]
+        }
+    }
+}
