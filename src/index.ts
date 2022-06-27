@@ -71,6 +71,28 @@ async function renderLastestNews(): Promise<Message> {
   return lastesNewsMessage;
 }
 
+async function renderTeaGardenStatus(): Promise<Message> {
+  const data = await fetchSensorData();
+  const contents: FlexBubble[] = data
+    .slice(0, 11)
+    .map((order: any) => {
+      return  {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": `${data.air_humidity}`
+            }
+          ]
+        }
+      }
+    });
+  return 
+}
+
 async function handleTextMessage(
   message: TextEventMessage,
   userId: string
@@ -80,7 +102,9 @@ async function handleTextMessage(
       return [
         await renderLastestNewsTextMessage(userId),
         await renderLastestNews()
-      ];     
+      ];
+    case '茶園狀態':
+      return await ;
   }
   return [];
 }
