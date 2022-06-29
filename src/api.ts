@@ -1,6 +1,5 @@
 const sensorUrl = process.env.SENSOR_API;
 const key = process.env.KEY;
-const crypto = require('crypto');
 const fetch = require('node-fetch');
 
 export async function fetchSensorData() {
@@ -13,11 +12,14 @@ export async function fetchSensorData() {
     .catch(console.log);
 }
 
-// fetch('https://data.agriweather.online/api/v1/devices/FDxjm4ej/realtime?params=soil_temperature%2Csoil_moisture%2Csoil_conductivity', {
+// fetch(`https://data.agriweather.online/api/v1/devices/FDy5evje/realtime?params=air_humidity,air_temperature,dew_point,soil_ph,soil_temperature,soil_moisture,soil_conductivity,solar_par,solar_radiation,wind_speed`, {
 //   headers: {
-//     'Authorization': 'Bearer ${key}'
+//     'Authorization': `Bearer ${key}`
 //   }
 // })
-//    .then((x) => x.json())
-//     .then((y) => console.log(y))
+//   .then((x) => x.json())
+//   .then((y) => console.log(y))
 //   .catch(console.log);
+  
+  
+  //?params=air_humidity,air_pressure,air_temperature,air_co,air_co2,air_nh3,bug_num,daily_bugs,dew_point,rain_rate,rainfalls,soil_ph,soil_temperature,soil_moisture,soil_conductivity,solar_lux,solar_par,solar_radiation,uvi,wind_direction,wind_speed

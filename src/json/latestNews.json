@@ -1,251 +1,250 @@
 {
   "type": "flex",
-  "altText": "歡迎成為愛料理好友，立刻登入並且領取優惠卷！",
-  "contents": 
-  {
-  "type": "carousel",
-  "contents": [
-    {
-      "type": "bubble",
-      "header": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "石碇永安青銀共學緬懷茶金歲月工作坊",
-            "color": "#ffffff",
-            "align": "start",
-            "size": "md",
-            "gravity": "center",
-            "wrap": true
-          }
-        ],
-        "backgroundColor": "#27ACB2",
-        "paddingTop": "19px",
-        "paddingAll": "12px",
-        "paddingBottom": "16px"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "text",
-                "color": "#8C8C8C",
-                "size": "sm",
-                "wrap": true,
-                "text": "。茶聞軼事報你知"
-              },
-              {
-                "type": "text",
-                "text": "。有機病蟲害管理",
-                "color": "#8C8C8C",
-                "size": "sm",
-                "wrap": true
-              },
-              {
-                "type": "text",
-                "text": "。農業資材使用與診斷鑑定",
-                "color": "#8C8C8C",
-                "size": "sm",
-                "wrap": true
-              }
-            ],
-            "flex": 1
-          }
-        ],
-        "spacing": "md",
-        "paddingAll": "12px"
-      },
-      "footer": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "separator"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": []
-          },
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "圖片",
-              "uri": "https://i.imgur.com/5C2MMeQ.jpg"
+  "altText": "歡迎成為永安里的好友",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "石碇永安青銀共學緬懷茶金歲月工作坊",
+              "color": "#ffffff",
+              "align": "start",
+              "size": "md",
+              "gravity": "center",
+              "wrap": true
             }
-          }
-        ]
-      },
-      "size": "kilo",
-      "styles": {
+          ],
+          "backgroundColor": "#27ACB2",
+          "paddingTop": "19px",
+          "paddingAll": "12px",
+          "paddingBottom": "16px"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "color": "#8C8C8C",
+                  "size": "sm",
+                  "wrap": true,
+                  "text": "。茶聞軼事報你知"
+                },
+                {
+                  "type": "text",
+                  "text": "。有機病蟲害管理",
+                  "color": "#8C8C8C",
+                  "size": "sm",
+                  "wrap": true
+                },
+                {
+                  "type": "text",
+                  "text": "。農業資材使用與診斷鑑定",
+                  "color": "#8C8C8C",
+                  "size": "sm",
+                  "wrap": true
+                }
+              ],
+              "flex": 1
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "12px"
+        },
         "footer": {
-          "separator": false
-        }
-      }
-    },
-    {
-      "type": "bubble",
-      "size": "kilo",
-      "header": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "永安里觀摩活動通知",
-            "color": "#ffffff",
-            "align": "center",
-            "gravity": "center",
-            "wrap": true,
-            "size": "md"
-          }
-        ],
-        "backgroundColor": "#FF6B6E",
-        "paddingTop": "19px",
-        "paddingAll": "12px",
-        "paddingBottom": "16px"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "text",
-                "text": "。攜帶小黃卡或列印疫苗接種數位健康證明",
-                "color": "#8C8C8C",
-                "size": "sm",
-                "wrap": true
-              },
-              {
-                "type": "text",
-                "text": "。帶至乘車處檢查",
-                "color": "#8C8C8C",
-                "size": "sm",
-                "wrap": true
-              }
-            ],
-            "flex": 1
-          }
-        ],
-        "spacing": "md",
-        "paddingAll": "12px"
-      },
-      "footer": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "separator"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": []
-          },
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "圖片",
-              "uri": "https://i.imgur.com/WM6BYj6.jpg"
-            }
-          }
-        ]
-      },
-      "styles": {
-        "footer": {
-          "separator": false
-        }
-      }
-    },
-    {
-      "type": "bubble",
-      "size": "kilo",
-      "header": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "台北市立動物園「夏日里山◎社區林業學堂」",
-            "color": "#ffffff",
-            "align": "center",
-            "gravity": "center",
-            "wrap": true,
-            "size": "md"
-          }
-        ],
-        "backgroundColor": "#FF6B6E",
-        "paddingTop": "19px",
-        "paddingAll": "12px",
-        "paddingBottom": "16px"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "text",
-                "text": "報名處：里辦公處、鄰長處 理事長處，理監事處 雲海國小劉 校長 報名截止日7月2號",
-                "color": "#8C8C8C",
-                "size": "sm",
-                "wrap": true
-              }
-            ],
-            "flex": 1
-          }
-        ],
-        "spacing": "md",
-        "paddingAll": "12px"
-      },
-      "footer": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "separator"
-          },
-          {
-            "type": "button",
-            "action": {
-              "type": "message",
-              "label": "行程",
-              "text": "8:00 永安社區雅香集合(遊覽車甲)出發\n8:20 雲海國小新店捷運站集合(遊覽車乙)出發\n8:50 抵達台北市立動物園門口集合\n9:00~9:50 淺山野生動物生活挑戰及救傷\n10:00~10:50 社區林業暨里山經濟介紹\n11:00~11:20 永安社區、雲海國小山林環境觀察分享與交流\n11:20~11:50 動物園動物觀察及保育工作介紹：穿山甲、食蛇龜\n12:00~15:50 用餐（便當）、遊園\n16:00 賦歸\n\n如果不搭車要自己去動物園的鄉親，8:50直接在台北市立動物園門口集合\n聯絡電話：蕭敏玲09-2198-9759"
-            }
-          },
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "報名",
-              "uri": "https://forms.gle/5MniconQmihva5eV6?openExternalBrowser=1"
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "separator"
             },
-            "margin": "md"
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": []
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "圖片",
+                "uri": "https://i.imgur.com/5C2MMeQ.jpg"
+              }
+            }
+          ]
+        },
+        "size": "kilo",
+        "styles": {
+          "footer": {
+            "separator": false
           }
-        ]
+        }
       },
-      "styles": {
+      {
+        "type": "bubble",
+        "size": "kilo",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "永安里觀摩活動通知",
+              "color": "#ffffff",
+              "align": "center",
+              "gravity": "center",
+              "wrap": true,
+              "size": "md"
+            }
+          ],
+          "backgroundColor": "#FF6B6E",
+          "paddingTop": "19px",
+          "paddingAll": "12px",
+          "paddingBottom": "16px"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "。攜帶小黃卡或列印疫苗接種數位健康證明",
+                  "color": "#8C8C8C",
+                  "size": "sm",
+                  "wrap": true
+                },
+                {
+                  "type": "text",
+                  "text": "。帶至乘車處檢查",
+                  "color": "#8C8C8C",
+                  "size": "sm",
+                  "wrap": true
+                }
+              ],
+              "flex": 1
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "12px"
+        },
         "footer": {
-          "separator": false
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "separator"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": []
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "圖片",
+                "uri": "https://i.imgur.com/WM6BYj6.jpg"
+              }
+            }
+          ]
+        },
+        "styles": {
+          "footer": {
+            "separator": false
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "kilo",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "台北市立動物園「夏日里山◎社區林業學堂」",
+              "color": "#ffffff",
+              "align": "center",
+              "gravity": "center",
+              "wrap": true,
+              "size": "md"
+            }
+          ],
+          "backgroundColor": "#FF6B6E",
+          "paddingTop": "19px",
+          "paddingAll": "12px",
+          "paddingBottom": "16px"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "報名處：里辦公處、鄰長處 理事長處，理監事處 雲海國小劉 校長 報名截止日7月2號",
+                  "color": "#8C8C8C",
+                  "size": "sm",
+                  "wrap": true
+                }
+              ],
+              "flex": 1
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "12px"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "separator"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "行程",
+                "text": "8:00 永安社區雅香集合(遊覽車甲)出發\n8:20 雲海國小新店捷運站集合(遊覽車乙)出發\n8:50 抵達台北市立動物園門口集合\n9:00~9:50 淺山野生動物生活挑戰及救傷\n10:00~10:50 社區林業暨里山經濟介紹\n11:00~11:20 永安社區、雲海國小山林環境觀察分享與交流\n11:20~11:50 動物園動物觀察及保育工作介紹：穿山甲、食蛇龜\n12:00~15:50 用餐（便當）、遊園\n16:00 賦歸\n\n如果不搭車要自己去動物園的鄉親，8:50直接在台北市立動物園門口集合\n聯絡電話：蕭敏玲09-2198-9759"
+              }
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "報名",
+                "uri": "https://forms.gle/5MniconQmihva5eV6?openExternalBrowser=1"
+              },
+              "margin": "md"
+            }
+          ]
+        },
+        "styles": {
+          "footer": {
+            "separator": false
+          }
         }
       }
-    }
-  ]
-}
+    ]
+  }
 }
