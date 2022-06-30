@@ -201,7 +201,7 @@ app.post(
           await handleEvent(event);
         } catch (err: unknown) {
           if (err instanceof Error) {
-            // console.error(util.inspect(err, false, null, true));
+            console.error(util.inspect(err, false, null, true));
           }
           return res.status(500).json({
             status: 'error'
